@@ -61,7 +61,7 @@ If you do not have this folder, move on to **Installing Wabbajack**.
 
 1. Navigate to **[wabbajack.org](https://www.wabbajack.org/)** and click ``Download``
 
-2. Create a folder a ``Wabbajack`` folder at the root of your ``C:\`` Drive
+2. At the root of your ``C:\`` drive, create a ``Wabbajack`` folder
 
 3. Move the downloaded ``Wabbajack.exe`` to the ``C:\Wabbajack`` folder
 
