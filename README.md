@@ -14,11 +14,11 @@ Below, you will find detailed instructions on how to prepare and install this mo
 * This modlist is tailored for the basic version of the game. Creation Club content will not be used. If you have CC content, this readme will instruct you on what to do.
 * At least 15 GB of free drive space
 * Windows 10 21H2 or higher (64bit)
-* [Visual C++ Runtime Libraries](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
+* **[Visual C++ Runtime Libraries](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)**
 * Extract the above archive and **run the included install_all.bat as an administrator** to install all of the required libraries at once
-* An archiving tool (I recommend [7-Zip](https://www.7-zip.org/))
+* An archiving tool (I recommend **[7-Zip](https://www.7-zip.org/)**)
 * The latest GPU drivers (Either NVIDIA, AMD or Intel)
-* A [Nexus Mods](https://users.nexusmods.com/register) account
+* A **[Nexus Mods](https://users.nexusmods.com/register)** account
 
 ## What the heck is Root Builder?
 
@@ -51,11 +51,19 @@ Begin by uninstalling your game from the Steam application:
 ## Removing old game profile(s) and savegames
 Even if you haven't installed Skyrim Special Edition, let's make sure to empty the folder containing all of your config files and savegames. Back- up your saves and return them to the folder afterwards, if you care about them.
 
-1. Go to your Documents folder.
-2. Find your My Games folder.
+1. Go to your ``Documents`` folder.
+2. Find your ``My Games`` folder.
 3. Delete the ``Skyrim Special Edition`` folder.
 
-If you do not have this folder, move on to the next section.
+If you do not have this folder, move on to **Installing Wabbajack**.
+
+## Downloading Wabbajack
+
+1. Navigate to **[wabbajack.org](https://www.wabbajack.org/)** and click ``Download``
+
+2. Create a folder a ``Wabbajack`` folder at the root of your ``C:\`` Drive
+
+3. Move the downloaded ``Wabbajack.exe`` to the ``C:\Wabbajack`` folder
 
 
 # Part II - The Clean Install
@@ -105,11 +113,11 @@ Now, onto the installation of the mod list!
 # Part III - Fates of the Dragonborn Installation
 
 1. Create a folder on the root of your ``C:\`` drive and name it ``FatesOfTheDragonborn``.
-2. Enter the ``FatesOfTheDragonborn`` folder and create a new folder, naming it ``downloads``.
-3. Download the latest **release** of this modlist and extract it anywhere.
-4. Run the ``.wabbajack`` file.
-5. Under ``Installation Location``, navigate to the ``FatesOfTheDragonborn`` folder created earlier and select it.
-6. Under ``Download Location``, navigate to the ``FatesOfTheDragonborn\downloads`` folder and select it.
+2. Enter the ``C:\FatesOfTheDragonborn`` folder and create a new folder, naming it ``downloads``.
+3. Download the **[latest release](https://github.com/litbeep/fatesofthedragonborn/releases)** of this modlist and extract it anywhere.
+4. Run the ``Fates of the Dragonborn.wabbajack`` file using ``C:\Wabbajack\Wabbajack.exe``.
+5. Under ``Installation Location``, navigate to the ``C:\FatesOfTheDragonborn`` folder created earlier and select it.
+6. Under ``Download Location``, navigate to the ``C:\FatesOfTheDragonborn\downloads`` folder and select it.
 
 ![Image](./files/WabbajackInstall.jpg/)
 
@@ -157,7 +165,7 @@ This guide will demonstrate how to remove the included CC content using MO2.
 
 9. Close out of Mod Organizer 2.
 
-10. Download the Custom INI.
+10. Download the **[Custom INI](https://github.com/litbeep/fatesofthedragonborn/blob/main/files/Custom%20INI.7z)**.
 
 11. Head over to your ``Documents`` folder in file explorer, then open this path ``My Games\Skyrim Special Edition``
 
