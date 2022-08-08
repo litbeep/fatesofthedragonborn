@@ -1,7 +1,7 @@
 # Fates of the Dragonborn
 ## Introduction
 
-Fates of the Dragonborn is a modlist intended to combine A Dragonborn's Fate with Skyrim Together Reborn, with a few extras thrown in. Some mods from ADF are excluded due to incompatibilities. Root Builder is used and included.
+Fates of the Dragonborn is a modlist intended to combine A Dragonborn's Fate with Skyrim Together Reborn, with a few extras thrown in. Some mods from ADF are excluded due to incompatibilities. **Root Builder** is used and included.
 
 Below, you will find detailed instructions on how to prepare and install this modlist. Please follow all directions to the letter. 
 
@@ -22,19 +22,15 @@ Below, you will find detailed instructions on how to prepare and install this mo
 
 ## What the heck is Root Builder?
 
-This Mod Organizer 2 plugin will allow you to install mods such as SKSE in MO2, this way the game folder will never need any modification and you will be able to track all newly generated files.
+Certain mods, such as **SKSE** or **ENB**, will require you to extract their files directly into your Skyrim game folder. With this guide, we want to keep our game folder as clean and unmodified as possible, so we're going to use Root Builder to that end.
 
-Root Builder by default (This is also the best mode for compatibility) works by copying files to the root folder when **building** and removing those files when **clearing**.
+This MO2 plugin will allow you to install mods such as SKSE in MO2, this way the game folder won't need any modification and you will be able to track all newly generated files. 
 
-### How does it keep my root folder clean?
+Root Builder by default (This is also the best mode for compatibility) works by *copying* files to the root folder when **building**, and *removing* those files when **clearing**.
 
-When you build for the first time in this guide, Root Builder will cache all the hashes of your game root files (Except the Data folder because MO2 handles it). This way when you want to revert your root folder to a clean state, the plugin will know what the original folder looked like.
+The Root Builder plugin is automatically installed by Wabbajack, no need to go get it yourself.
 
-### Tracking newly generated files
-
-When you clear, Root Builder will revert all your base files via hashes and the backup it stored. Any file that belongs to a mod in MO2 will simply be removed from root, ready for another build in the future. But what happens to files that popped up in your game folder between the first build and this clear?
-
-Let's say for example that you have a new .log file in your root folder, and this file is not part of the base game root folder nor any mod in MO2. Upon clearing this will be sent to your overwrite folder in MO2, effectively letting you track any file created by your mods while the game is running.
+Want to learn more about how Root Builder works? [**Read here.**](https://wastelandsurvivalguide.com/rootbuilder.html)
 
 # Part I - Prep Work
 ## Uninstalling the game
@@ -115,9 +111,9 @@ Now, onto the installation of the mod list!
 1. Create a folder on the root of your ``C:\`` drive and name it ``FatesOfTheDragonborn``.
 2. Enter the ``C:\FatesOfTheDragonborn`` folder and create a new folder, naming it ``downloads``.
 3. Download the **[latest release](https://github.com/litbeep/fatesofthedragonborn/releases)** of this modlist and extract it anywhere.
-4. Run the ``Fates of the Dragonborn.wabbajack`` file using ``C:\Wabbajack\Wabbajack.exe``.
+4. Open  ``C:\Wabbajack\Wabbajack.exe``. Choose the option to install a modlist from the disk, then select the ``Fates of the Dragonborn.wabbajack`` file you extracted in the previous step.
 5. Under ``Installation Location``, navigate to the ``C:\FatesOfTheDragonborn`` folder created earlier and select it.
-6. Under ``Download Location``, navigate to the ``C:\FatesOfTheDragonborn\downloads`` folder and select it.
+6. Under ``Download Location``, navigate to the ``C:\FatesOfTheDragonborn\downloads`` folder and select it (if not automatically detected).
 
 ![Image](./files/WabbajackInstall.jpg/)
 
@@ -138,7 +134,7 @@ Whether you bought the DLC or not, Bethesda included four Creation Club items wi
 These four CC items have been shown to make the Skyrim Together Reborn experience more unstable, and prone to crashing more frequently.
 
 ⚠️ If you remove the Creation Club content, your existing savegame(s) may become unloadable.
-Regardless, it is **strongly advised** that they be removed!
+Regardless, it is **strongly advised** that they be removed! ⚠️
 
 This guide will demonstrate how to remove the included CC content using MO2.
 
@@ -159,7 +155,7 @@ This guide will demonstrate how to remove the included CC content using MO2.
 
 6. Delete them.
 
-7. Re-open Mod Organizer 2, and the Creation Club content will not be listed anymore.
+7. Re-open Mod Organizer 2, and verify that the Creation Club content is not listed anymore.
 
 ## Final Steps
 
@@ -181,11 +177,12 @@ This guide will demonstrate how to remove the included CC content using MO2.
 
 ![Image](./files/RootBuilderComplete.jpg/)
 
-16. Launch the game by ensuring ``Skyrim Together Reborn`` is selected and click ``Run``!
+16. Launch the game by ensuring ``Skyrim Together Reborn`` is selected and click ``Run``! You may be prompted to locate your **SkyrimSE.exe** file. Navigate to wherever you have SSE installed, and select the appropriate exe.
 
 ![Image](./files/ClickRun.jpg/)
 
 # Final Notes
 
-* Auto-saving is disabled for stability reasons. Try to avoid quick-saving and make full saves instead.
+* Auto-saving is disabled for stability. Try to **avoid** quick-saving and make full saves instead.
+* Weather will not sync with other players when playing STR. This is on their to-do list.
 * Use BethINI at your own discretion.
