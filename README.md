@@ -142,7 +142,7 @@ This guide will demonstrate how to remove the included CC content using MO2.
 
 4. Next, navigate to your ``Skyrim Special Edition`` install directory and enter the ``Data`` folder
 
-5. Find these files:
+5. Find and delete these files:
 
 - ccBGSSSE001-Fish.bsa
 - ccBGSSSE001-Fish.esm
@@ -153,7 +153,7 @@ This guide will demonstrate how to remove the included CC content using MO2.
 - ccQDRSSE001-SurvivalMode.bsa
 - ccQDRSSE001-SurvivalMode.esl
 
-6. Delete them.
+6. If you see any more files prefixed with "cc" go ahead and delete those too.
 
 7. Re-open Mod Organizer 2, and verify that the Creation Club content is not listed anymore.
 
